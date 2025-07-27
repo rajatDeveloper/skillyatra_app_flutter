@@ -3,7 +3,7 @@ import 'package:flutter_application_1/provider/main_provider.dart';
 import 'package:flutter_application_1/res/routes.dart';
 import 'package:flutter_application_1/screens/home_page.dart';
 import 'package:provider/provider.dart';
-
+// by main 
 void main() => runApp(
   MultiProvider(
     providers: [ChangeNotifierProvider(create: (_) => MainProvider())],
